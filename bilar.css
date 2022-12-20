@@ -12,7 +12,8 @@ body {
 .navtop {
   background-color: #333;
   overflow: hidden;
-  position: sticky;
+  position: fixed;
+  width: 100%;
 }
 
 .navtop a {
@@ -24,19 +25,22 @@ body {
 }
 
 .navright {
-  position: absolute;
-  top: 50%;
-  right: 150px;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  top: 40px;
+  right: 15px;
 }
 
 input[type="text"] {
-  width: 35px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+  width: 10%;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 input[type="text"]:focus {
   width: 50%;
+  right: 300px;
 }
 .navtop a:hover {
   background-color: #ddd;
