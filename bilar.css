@@ -137,6 +137,19 @@ input[type="text"]:focus {
   width: 300px;
 }
 
+.bil3 {
+  display: flex;
+  padding: 20px;
+  height: auto;
+  width: 350px;
+}
+
+.bil4 {
+  display: flex;
+  padding: 20px;
+  height: auto;
+  width: 350px;
+}
 .infotext {
   display: inline-block;
   padding: 20px;
@@ -167,4 +180,5 @@ input[type="text"]:focus {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  size: 40px;
 }
